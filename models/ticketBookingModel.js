@@ -6,7 +6,7 @@ mongoose.connect('mongodb+srv://surendra:mNXWK0EQF7jfuN9Z@cluster0.s9aehsc.mongo
     lname:String,
     origin:String,
     destination:String,
-    departure:String,
+    departureTime:String,
     planeCategory:String,
     ticketBook:Boolean
  })

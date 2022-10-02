@@ -8,7 +8,7 @@ const flightSchema=new schema({
     },
     origin:String,
     destination:String,
-    departureDate:String,
+    departureTime:String,
     planeCategory:String
 })
 const flightModel=mongoose.model('flightDetails', flightSchema)
